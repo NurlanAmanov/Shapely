@@ -48,15 +48,6 @@ header {
     height: calc(100vh - 77px);
 }
 
-.headmain {
-    text-align: center;
-    height: calc(100vh - 77px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .headmain h1 {
     color: #fff;
     font-size: 32px;
@@ -85,10 +76,12 @@ header {
     transition: .3s ease;
     cursor: pointer;
 }
-
+.btn{
+    margin-bottom: 10px;
+}
 .headmain .btnb {
     background-color: #745cf9;
-    border-color: #745cf9;
+   border-color: #745cf9;
 }
 
 .headmain .btna {
