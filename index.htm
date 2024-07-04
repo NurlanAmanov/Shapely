@@ -51,7 +51,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success border-0" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -70,43 +70,51 @@
 
   </header>
   <main>
-    <section>
-      <div class="block1">
-        <div class="blog1img">
-          <img src="img/macbook.png" alt="img" />
-        </div>
-        <div>
-          <h3>SEO Friendly</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas
-            molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum. Maecenas
-            faucibus mattis imperdiet. In rhoncus ac ligula id ultricies.</p>
-          <a href="#">Lore more</a>
-        </div>
+    <section id="bseofrnd" class="sections">
+      <div class="sectimgs45">
+        <img src="img/macbook.png" alt="macbook" />
+      </div>
+      <div class="wtxt30">
+        <h2>SEO Friendly</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+          pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam
+          feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et
+          interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula
+          id ultricies.
+        </p>
+        <a  href="#">Read more</a>
       </div>
     </section>
-    <section id="bgboz">
-      <div class="card2">
-        <div class="item1">
-          <h3>Portfolio Section</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar luctus sem, eget porta orci. Maecenas
-            molestie dui id diam feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et interdum</p>
-          <a href="#">See it an action</a>
-        </div>
-        <div class="item2">
-          <img src="img/macbook2.png" alt="img">
-        </div>
+    <section id="bportfl" class="sections">
+      
+      <div class="wtxt30">
+        <h2>SEO Friendly</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+          pulvinar luctus sem, eget porta orci. Maecenas molestie dui id diam
+          feugiat, eu tincidunt mauris aliquam. Duis commodo vitae ligula et
+          interdum. Maecenas faucibus mattis imperdiet. In rhoncus ac ligula
+          id ultricies.
+        </p>
+        <a  href="#">Read more</a>
+      </div>
+      <div class="sectimgs45">
+        <img src="img/macbook2.png" alt="macbook" />
       </div>
     </section>
-    <section id="bgimg">
-      <div class="card3 ">
+    <section id="bgparlx" class="sec">
+      <div id="smlbg">
         <h1>Small Parallax Section</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet rhoncus porta. Ut quis sem quis
-          purus lobortis dictum. Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget tincidunt leo ornare
-          quis.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          imperdiet rhoncus porta. Ut quis sem quis purus lobortis dictum.
+          Aliquam nec dignissim nisl. Vivamus cursus feugiat sapien, eget
+          tincidunt leo ornare quis.
+        </p>
         <a href="#">More info</a>
       </div>
     </section>
-
     <section id="bgmont">
       <h2>Limitless Options</h2>
       <p>
@@ -118,6 +126,7 @@
       <a href="#">Download Now</a>
       <img src="img/bg3.jpg" alt="img" />
     </section>
+
     <section id="project" class="bg-black white-txt">
       <h2>Our Latest Projects</h2>
       <p>Here is our latest projects. You'll love them!</p>
@@ -185,24 +194,60 @@
       </div>
     </section>
     </section>
-    <section class="person">
-
-      <div class="persontop">
-        <h3>What Our Customers Say</h3>
-
-        <p>Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus dictum, augue tortor dictum ipsum, nec congue
-          arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra rhoncus libero. Aliquam varius viverra
-          ex, in venenatis magna ornare sit amet. Integer varius sit amet turpis eu ullamcorper.</p>
-        <div class="personbottom">
-          <button id="button2">❮</button>
-          <img src="img/person2.jpg" alt="person">
-          <button id="button1">❯</button>
-
+      <div id="person-slider">
+        <h2>What Our Customers Say</h2>
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item slide slide-item active">
+              <div class="container">
+                <div>
+                  <p>
+                    Integer ut rutrum nulla, sit amet fringilla nisi. Nam nisl
+                    velit, vehicula at nibh sed, porttitor sollicitudin ante.
+                    Sed justo augue, vestibulum ut efficitur vitae, euismod et
+                    justo. Mauris sed mattis ante. Ut ligula lectus, consequat
+                    vitae neque ac, gravida hendrerit ante.
+                  </p>
+                  <div class="customer">
+                    <img src="img/person1.png" alt="customer image" />
+                    <h6>John Doe</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item slide-2 slide-item">
+              <div class="container">
+                <div>
+                  <p>
+                    Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus
+                    dictum, augue tortor dictum ipsum, nec congue arcu lorem in
+                    nisl. Duis neque lacus, viverra non mauris ac, pharetra
+                    rhoncus libero. Aliquam varius viverra ex, in venenatis
+                    magna ornare sit amet. Integer varius sit amet turpis eu
+                    ullamcorper.
+                  </p>
+                  <div class="customer">
+                    <img src="img/person2.jpg" alt="customer image" />
+                    <h6>Aigars Silkalns</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="persontext">
-          <h6>Aigars Silkalns</h6>
-        </div>
-    </section>
+      </div>
+
+ 
     <section class="team">
       <h2>Our Main Clients</h2>
       <div class="clintimg">
