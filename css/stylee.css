@@ -76,9 +76,7 @@ header {
     transition: .3s ease;
     cursor: pointer;
 }
-.btn{
-    margin-bottom: 10px;
-}
+
 .headmain .btnb {
     background-color: #745cf9;
    border-color: #745cf9;
@@ -249,11 +247,13 @@ h1 {
     text-align: center;
 }
 
-
+#projgallery {
+    width: 100%!important;
+}
 #projgallery img {
-    object-fit:  cover;
-    width: 100%;
-    height: 100%;
+    object-fit:  cover!important;
+    width: 100%!important;
+    height: 50%;
 }
 
 .proj-container {
@@ -399,8 +399,27 @@ footer {
     color: #745cf9;
     transition: .2s;
 }
+form{
+    align-items: center;
+    justify-content: center;
+}
+form .form-control{
+    width: 200px;
+    height: 40px;
 
+}
+/* .navbar-collapse{
+    width: 25px!important;
+    
+   
+} */
 @media only screen and (min-width: 768px) {
+.navbar-brand {
+    font-size: 15px!important;
+}
+form button{
+    width: 100%;
+}
 
     h1 {
         font-size: 60px;
